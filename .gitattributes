@@ -1,0 +1,15 @@
+# Pastikan GitHub mendeteksi semua file PHP sebagai PHP, bukan Hack
+*.php linguist-language=PHP
+
+# Pastikan file CSS dikenali dengan benar
+*.css linguist-language=CSS
+
+# Abaikan file lain (misalnya konfigurasi atau aset)
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.jpg linguist-detectable=false
+*.jpeg linguist-detectable=false
+*.png linguist-detectable=false
+*.svg linguist-detectable=false
+*.json linguist-detectable=false
+*.md linguist-detectable=false
